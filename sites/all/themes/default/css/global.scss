@@ -5,3 +5,74 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 @import 'variables';
 @import 'default-style';
+
+/* Algemeen */
+p {
+  margin-bottom:0;
+}
+
+.logo-img {
+  width:60%;
+}
+
+.zone-branding-wrapper {
+  padding:10px 0;
+}
+
+/* Banner */
+#zone-header {
+  width:100%;
+  #region-header-first {
+    width:100%;
+    margin:0;
+    img {
+      width:100%;
+    }
+    .field-name-field-body {
+      background-color: #000;
+      opacity: 0.8;
+      color: #FFFFFF;
+      padding: 16px 10px;
+      position: absolute;
+      bottom: 193px;
+    }
+    .field-name-field-title {
+      background-color: #000;
+      opacity: 0.8;
+      color: #FFFFFF;
+      padding: 16px 10px;
+      position: absolute;
+      bottom: 253px;
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+
+/* Menu */
+.block-superfish-1 {
+  float:right;
+  ul {
+    li {
+      a {
+        font-family:$font;
+        font-size:0.938em;
+        color:#000;
+        text-transform:uppercase;
+        font-weight:700;
+        margin: 32px 55px 0 0;
+        border-top:3px solid transparent;
+        padding-top:5px;
+      }
+      a:hover {
+        color:$blue;
+      }
+      a.active {
+        color:#000;
+        border-top:3px solid $blue;
+      }
+    }
+  }
+}
+
