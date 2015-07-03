@@ -279,6 +279,18 @@ h2.block-title {
   }
 }
 
+/* Googlemaps */
+#zone-postscript-second {
+  width:100%;
+}
+
+#region-postscript-second {
+  width:100%;
+  margin:0;
+  iframe {
+    width:100%;
+  }
+}
 
 /* footer */
 .block-superfish-2 {

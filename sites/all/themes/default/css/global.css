@@ -391,6 +391,16 @@ h2.block-title {
   font-size: 1.6em;
   font-weight: 300; }
 
+/* Googlemaps */
+#zone-postscript-second {
+  width: 100%; }
+
+#region-postscript-second {
+  width: 100%;
+  margin: 0; }
+  #region-postscript-second iframe {
+    width: 100%; }
+
 /* footer */
 .block-superfish-2 h2.block-title {
   text-align: left;
