@@ -25,5 +25,20 @@ function default_imagestyles_image_default_styles() {
     ),
   );
 
+  // Exported image style: news.
+  $styles['news'] = array(
+    'label' => 'News',
+    'effects' => array(
+      2 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 205,
+          'height' => 104,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   return $styles;
 }
