@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Default - bean feature.
+ */
+
+include_once 'default_bean.features.inc';
