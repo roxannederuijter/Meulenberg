@@ -610,6 +610,32 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['views--exp-nieuws-page_1'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => '-exp-nieuws-page_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'nieuws*',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['views-6e507aaad71a5fc63c0b11b67e8d6924'] = array(
     'cache' => -1,
     'custom' => 0,

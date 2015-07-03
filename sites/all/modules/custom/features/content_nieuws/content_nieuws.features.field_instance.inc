@@ -10,6 +10,42 @@
 function content_nieuws_field_default_field_instances() {
   $field_instances = array();
 
+  // Exported field_instance: 'node-nieuws-field_categorie'
+  $field_instances['node-nieuws-field_categorie'] = array(
+    'bundle' => 'nieuws',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 10,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_categorie',
+    'label' => 'Categorie',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_buttons',
+      'weight' => 7,
+    ),
+  );
+
   // Exported field_instance: 'node-nieuws-field_image'
   $field_instances['node-nieuws-field_image'] = array(
     'bundle' => 'nieuws',
@@ -18,13 +54,9 @@ function content_nieuws_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'image',
-        'settings' => array(
-          'image_link' => '',
-          'image_style' => '',
-        ),
-        'type' => 'image',
-        'weight' => 2,
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 9,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -68,13 +100,13 @@ function content_nieuws_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'paragraphs',
         'settings' => array(
           'view_mode' => 'full',
         ),
         'type' => 'paragraphs_view',
-        'weight' => 0,
+        'weight' => 1,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -130,7 +162,7 @@ function content_nieuws_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 1,
+        'weight' => 11,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -163,6 +195,7 @@ function content_nieuws_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Afbeelding');
+  t('Categorie');
   t('Paragraph\'s');
   t('Samenvatting');
 

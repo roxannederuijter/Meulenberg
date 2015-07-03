@@ -249,6 +249,9 @@ h2.block-title {
       bottom: 253px;
       font-size: 30px;
       text-transform: uppercase; }
+  #zone-header .field-collection-view {
+    width: 100%;
+    margin: 0; }
 
 /* Menu */
 .block-superfish-1 {
