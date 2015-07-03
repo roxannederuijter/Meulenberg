@@ -594,10 +594,10 @@ function default_block_settings_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'postscript_first',
+        'region' => 'preface_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -13,
       ),
       'seven' => array(
         'region' => '',
@@ -646,10 +646,10 @@ function default_block_settings_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'preface_first',
+        'region' => 'postscript_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -12,
       ),
       'seven' => array(
         'region' => '',
