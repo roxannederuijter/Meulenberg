@@ -11,6 +11,15 @@ p {
   margin-bottom:0;
 }
 
+h2.block-title {
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-bottom:60px;
+  font-size:1.875em;
+}
+
 .logo-img {
   width:60%;
 }
@@ -21,6 +30,16 @@ p {
 
 .region-preface-first {
   padding:50px 0;
+}
+
+.zone-postscript-wrapper {
+  padding:50px 0;
+  background-color:#f1f4f9;
+}
+
+.zone-footer-wrapper {
+  background-color:$blue;
+  padding:20px 0;
 }
 
 /* Banner */
@@ -116,12 +135,37 @@ p {
       margin-bottom:10px;
     }
   }
+}
+
+.view-display-id-frontpage_diensten_block {
+  .views-row {
+    width: 33.3%;
+    float: left;
+    box-sizing: border-box;
+    margin-bottom:60px;
+    .views-field-title {
+      text-align:center;
+      a {
+        color:#000;
+      }
+    }
+  }
+}
+
+/* footer */
+.block-superfish-2 {
   h2.block-title {
-    margin: 0 auto;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 300;
-    padding-bottom:60px;
-    font-size:1.875em;
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+    padding-bottom:0;
+  }
+  ul li {
+    margin: 0;
+    a {
+      color: #fff;
+      font-size: 1em;
+      padding: 4px 0;
+    }
   }
 }

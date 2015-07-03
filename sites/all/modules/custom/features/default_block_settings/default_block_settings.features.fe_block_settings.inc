@@ -256,8 +256,8 @@ function default_block_settings_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'footer_first',
+        'status' => 1,
         'theme' => 'default',
         'weight' => 0,
       ),
@@ -268,7 +268,7 @@ function default_block_settings_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => 'Direct naar',
     'visibility' => 0,
   );
 
@@ -582,6 +582,32 @@ function default_block_settings_default_fe_block_settings() {
     ),
     'title' => '',
     'visibility' => 0,
+  );
+
+  $export['views-6e507aaad71a5fc63c0b11b67e8d6924'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => '6e507aaad71a5fc63c0b11b67e8d6924',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'postscript_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Diensten',
+    'visibility' => 1,
   );
 
   $export['views-banner-block'] = array(
