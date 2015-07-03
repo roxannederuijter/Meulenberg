@@ -610,10 +610,10 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 0,
   );
 
-  $export['views--exp-nieuws-page_1'] = array(
+  $export['views--exp-nieuws-page_1_nieuws'] = array(
     'cache' => -1,
     'custom' => 0,
-    'delta' => '-exp-nieuws-page_1',
+    'delta' => '-exp-nieuws-page_1_nieuws',
     'module' => 'views',
     'node_types' => array(),
     'pages' => 'nieuws*',

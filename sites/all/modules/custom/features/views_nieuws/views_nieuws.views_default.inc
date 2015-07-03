@@ -95,7 +95,7 @@ function views_nieuws_views_default_views() {
   $handler = $view->new_display('block', 'Frontpage-Block', 'news_frontpage_block');
 
   /* Display: Pagina */
-  $handler = $view->new_display('page', 'Pagina', 'page_1');
+  $handler = $view->new_display('page', 'Pagina', 'page_1_nieuws');
   $handler->display->display_options['defaults']['use_ajax'] = FALSE;
   $handler->display->display_options['use_ajax'] = TRUE;
   $handler->display->display_options['defaults']['use_more'] = FALSE;
