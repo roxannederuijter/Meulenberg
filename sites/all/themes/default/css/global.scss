@@ -250,6 +250,27 @@ h2.block-title {
   }
 }
 
+/* Contact */
+.node-webform {
+  text-align:center;
+  h2 {
+    font-weight:300;
+  }
+  input[type="text"], input[type="email"],textarea {
+    margin:0 auto;
+  }
+  form {
+    width: 70%;
+    margin: 0 auto;
+  }
+  input[type="submit"] {
+    border-radius:0;
+    background:$blue;
+    color:#fff;
+
+    font-weight:300;
+  }
+}
 
 /* footer */
 .block-superfish-2 {
