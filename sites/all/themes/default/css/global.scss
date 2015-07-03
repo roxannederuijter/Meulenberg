@@ -152,6 +152,50 @@ h2.block-title {
   }
 }
 
+/* Diensten */
+.region-sidebar-first {
+  padding:20px 0px;
+  .block-superfish {
+    float:left;
+  }
+  .block-superfish-3 {
+    float:left;
+    padding-bottom:10px;
+    ul {
+      li {
+        margin:0;
+        width:100%;
+        margin-left:0px;
+        border-bottom: 1px dashed #ddd;
+        a {
+          font-size:1em;
+          padding:8px 0;
+          font-weight:400;
+        }
+        a.active {
+          color:$blue;
+        }
+      }
+    }
+  }
+  .sf-megamenu-column {
+    ol {
+      li {
+        a {
+          font-size:0.875em;
+        }
+        a:before {
+          content:'\003e';
+          margin-right:3%;
+        }
+        a.active {
+          color:$blue;
+        }
+      }
+    }
+  }
+}
+
 /* footer */
 .block-superfish-2 {
   h2.block-title {
@@ -162,6 +206,7 @@ h2.block-title {
   }
   ul li {
     margin: 0;
+    width:100%;
     a {
       color: #fff;
       font-size: 1em;

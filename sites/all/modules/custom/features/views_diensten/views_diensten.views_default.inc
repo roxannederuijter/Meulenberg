@@ -77,6 +77,28 @@ function views_diensten_views_default_views() {
 
   /* Display: Frontpage-Diensten-Block */
   $handler = $view->new_display('block', 'Frontpage-Diensten-Block', 'frontpage_diensten_block');
+
+  /* Display: Pagina */
+  $handler = $view->new_display('page', 'Pagina', 'page_1');
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Veld: Inhoud: Titel */
+  $handler->display->display_options['fields']['title']['id'] = 'title';
+  $handler->display->display_options['fields']['title']['table'] = 'node';
+  $handler->display->display_options['fields']['title']['field'] = 'title';
+  $handler->display->display_options['fields']['title']['label'] = '';
+  $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
+  $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
+  /* Veld: Inhoud: Paragraph's */
+  $handler->display->display_options['fields']['field_paragraph_s']['id'] = 'field_paragraph_s';
+  $handler->display->display_options['fields']['field_paragraph_s']['table'] = 'field_data_field_paragraph_s';
+  $handler->display->display_options['fields']['field_paragraph_s']['field'] = 'field_paragraph_s';
+  $handler->display->display_options['fields']['field_paragraph_s']['label'] = '';
+  $handler->display->display_options['fields']['field_paragraph_s']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_paragraph_s']['settings'] = array(
+    'view_mode' => 'full',
+  );
+  $handler->display->display_options['fields']['field_paragraph_s']['delta_offset'] = '0';
+  $handler->display->display_options['path'] = 'diensten';
   $translatables['diensten'] = array(
     t('Master'),
     t('Diensten'),
@@ -87,6 +109,7 @@ function views_diensten_views_default_views() {
     t('Oplopend'),
     t('Aflopend'),
     t('Frontpage-Diensten-Block'),
+    t('Pagina'),
   );
   $export['diensten'] = $view;
 
