@@ -36,5 +36,6 @@ features[fe_block_settings][] = user-online
 features[fe_block_settings][] = views--exp-nieuws-page_1_nieuws
 features[fe_block_settings][] = views-6e507aaad71a5fc63c0b11b67e8d6924
 features[fe_block_settings][] = views-banner-block
+features[fe_block_settings][] = views-contact-contact_block
 features[fe_block_settings][] = views-nieuws-news_frontpage_block
 features[features_api][] = api:2

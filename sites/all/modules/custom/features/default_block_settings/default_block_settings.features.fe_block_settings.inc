@@ -688,6 +688,32 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['views-contact-contact_block'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'contact-contact_block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'neem-contact-met-ons-op',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'postscript_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['views-nieuws-news_frontpage_block'] = array(
     'cache' => -1,
     'custom' => 0,

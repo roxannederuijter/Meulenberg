@@ -387,6 +387,10 @@ h2.block-title {
     color: #fff;
     font-weight: 300; }
 
+.views-field-field-contactgegevens .field-name-field-title {
+  font-size: 1.6em;
+  font-weight: 300; }
+
 /* footer */
 .block-superfish-2 h2.block-title {
   text-align: left;
