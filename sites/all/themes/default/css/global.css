@@ -318,6 +318,10 @@ h2.block-title {
   .region-sidebar-first .block-superfish-3 {
     float: left;
     padding-bottom: 10px; }
+    .region-sidebar-first .block-superfish-3 h2.block-title {
+      float: left;
+      font-size: 18px;
+      padding-bottom: 0; }
     .region-sidebar-first .block-superfish-3 ul li {
       margin: 0;
       width: 100%;

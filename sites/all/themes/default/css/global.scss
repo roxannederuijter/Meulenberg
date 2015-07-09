@@ -168,6 +168,11 @@ h2.block-title {
   .block-superfish-3 {
     float:left;
     padding-bottom:10px;
+    h2.block-title {
+      float: left;
+      font-size: 18px;
+      padding-bottom: 0;
+    }
     ul {
       li {
         margin:0;

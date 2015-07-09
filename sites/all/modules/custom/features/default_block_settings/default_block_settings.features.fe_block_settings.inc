@@ -346,7 +346,7 @@ function default_block_settings_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '<none>',
+    'title' => 'Diensten',
     'visibility' => 1,
   );
 
