@@ -9,6 +9,7 @@ dependencies[] = field_bases
 dependencies[] = field_collection
 dependencies[] = field_ui
 dependencies[] = jquery_update
+dependencies[] = menu_attributes
 dependencies[] = seo_checklist
 dependencies[] = strongarm
 features[ctools][] = strongarm:strongarm:1
