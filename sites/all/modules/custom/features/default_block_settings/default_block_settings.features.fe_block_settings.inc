@@ -38,6 +38,32 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 1,
   );
 
+  $export['block-cta'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'cta',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'diensten*',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => -15,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['block-googlemaps'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -415,7 +441,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -16,
       ),
       'seven' => array(
         'region' => 'content',
@@ -764,6 +790,32 @@ function default_block_settings_default_fe_block_settings() {
     ),
     'title' => 'Nieuws',
     'visibility' => 1,
+  );
+
+  $export['webform-client-block-15'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'client-block-15',
+    'module' => 'webform',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
   );
 
   return $export;

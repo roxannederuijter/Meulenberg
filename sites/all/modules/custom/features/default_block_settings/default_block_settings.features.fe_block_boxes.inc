@@ -11,6 +11,15 @@ function default_block_settings_default_fe_block_boxes() {
   $export = array();
 
   $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'call to action';
+  $fe_block_boxes->format = 'full_html';
+  $fe_block_boxes->machine_name = 'cta';
+  $fe_block_boxes->body = '<p><a class="buttonred" href="/offerte">Offerte aanvragen</a></p>
+';
+
+  $export['cta'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'googlemaps';
   $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'googlemaps';
