@@ -397,6 +397,9 @@ h2.block-title {
   font-size: 1.6em;
   font-weight: 300; }
 
+.block-views-contact-contact-block .group-left {
+  width: 20%; }
+
 /* Googlemaps */
 #zone-postscript-second {
   width: 100%; }
