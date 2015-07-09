@@ -11,6 +11,23 @@ function default_block_settings_default_fe_block_boxes() {
   $export = array();
 
   $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'contact';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'contact';
+  $fe_block_boxes->body = '<p>Drukkerij Meulenberg</p>
+
+<p>Rotterdamsekaai 61</p>
+
+<p>4331 GN Middelburg&nbsp;</p>
+
+<p>T: 0118 – 635 126&nbsp;</p>
+
+<p><a href="mailto:drukkerij@meulenberg.nl">drukkerij@meulenberg.nl</a></p>
+';
+
+  $export['contact'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'call to action';
   $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'cta';

@@ -324,12 +324,6 @@ h2.block-title {
 
 /* footer */
 .block-superfish-2 {
-  h2.block-title {
-    text-align: left;
-    color: #fff;
-    font-size: 18px;
-    padding-bottom:0;
-  }
   ul li {
     margin: 0;
     width:100%;
@@ -338,5 +332,15 @@ h2.block-title {
       font-size: 1em;
       padding: 4px 0;
     }
+  }
+}
+
+#zone-footer-wrapper {
+  color:#fff;
+  h2.block-title {
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+    padding-bottom:0;
   }
 }
