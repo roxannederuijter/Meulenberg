@@ -21,7 +21,7 @@ function content_diensten_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 3,
+        'weight' => 11,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -42,7 +42,7 @@ function content_diensten_field_default_field_instances() {
       'module' => 'field_collection',
       'settings' => array(),
       'type' => 'field_collection_embed',
-      'weight' => 7,
+      'weight' => 0,
     ),
   );
 
@@ -56,7 +56,7 @@ function content_diensten_field_default_field_instances() {
         'label' => 'hidden',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 2,
+        'weight' => 10,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -88,7 +88,7 @@ function content_diensten_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 1,
+      'weight' => 2,
     ),
   );
 
@@ -147,7 +147,47 @@ function content_diensten_field_default_field_instances() {
       'module' => 'paragraphs',
       'settings' => array(),
       'type' => 'paragraphs_embed',
-      'weight' => 2,
+      'weight' => 3,
+    ),
+  );
+
+  // Exported field_instance: 'node-diensten-field_usp'
+  $field_instances['node-diensten-field_usp'] = array(
+    'bundle' => 'diensten',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'cck_list',
+        'settings' => array(),
+        'type' => 'list_unordered',
+        'weight' => 2,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_usp',
+    'label' => 'Usp',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'cck_list',
+      'settings' => array(
+        'css_class' => '',
+        'css_id' => '',
+        'rows' => 5,
+      ),
+      'type' => 'cck_list_textarea',
+      'weight' => 7,
     ),
   );
 
@@ -156,6 +196,7 @@ function content_diensten_field_default_field_instances() {
   t('Afbeelding');
   t('Banner');
   t('Paragraph\'s');
+  t('Usp');
 
   return $field_instances;
 }

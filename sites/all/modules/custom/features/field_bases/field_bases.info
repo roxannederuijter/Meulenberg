@@ -1,6 +1,7 @@
 name = Field bases
 core = 7.x
 package = Content
+dependencies[] = cck_list
 dependencies[] = features
 dependencies[] = field_collection
 dependencies[] = image
@@ -23,4 +24,5 @@ features[field_base][] = field_samenvatting
 features[field_base][] = field_tekst_lang
 features[field_base][] = field_tekst_rechts
 features[field_base][] = field_title
+features[field_base][] = field_usp
 features[taxonomy][] = catogorie

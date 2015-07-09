@@ -112,11 +112,13 @@ function content_ds_settings_ds_layout_settings_info() {
       'ds_content' => array(
         0 => 'title',
         1 => 'field_paragraph_s',
+        2 => 'field_usp',
       ),
     ),
     'fields' => array(
       'title' => 'ds_content',
       'field_paragraph_s' => 'ds_content',
+      'field_usp' => 'ds_content',
     ),
     'classes' => array(),
     'wrappers' => array(

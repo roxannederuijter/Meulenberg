@@ -44,16 +44,16 @@ function content_diensten_strongarm() {
     'extra_fields' => array(
       'form' => array(
         'metatags' => array(
-          'weight' => '5',
+          'weight' => '6',
         ),
         'title' => array(
-          'weight' => '0',
+          'weight' => '1',
         ),
         'path' => array(
-          'weight' => '3',
+          'weight' => '4',
         ),
         'redirect' => array(
-          'weight' => '4',
+          'weight' => '5',
         ),
       ),
       'display' => array(),

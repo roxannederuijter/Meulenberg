@@ -358,6 +358,16 @@ h2.block-title {
   .region-sidebar-first .sf-megamenu-column ol li a.active {
     color: #4d74a3; }
 
+.field-name-field-usp ul li {
+  padding: 0;
+  margin: 0;
+  background: url("../css/img/check-circle.png") no-repeat center left;
+  background-size: 24px;
+  padding-left: 36px;
+  line-height: 48px;
+  float: left;
+  width: 100%; }
+
 /* Nieuws */
 .views-exposed-form label {
   font-weight: 300; }
