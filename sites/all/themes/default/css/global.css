@@ -270,6 +270,8 @@ h2.block-title {
   .block-superfish-1 ul li a.active {
     color: #000;
     border-top: 3px solid #4d74a3; }
+  .block-superfish-1 ul li a.notactive {
+    border-top: 3px solid transparent; }
 
 /* Frontpage */
 .block-nieuws-news-frontpage-block .more-link {
