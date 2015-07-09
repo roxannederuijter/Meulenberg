@@ -11,6 +11,19 @@ p {
   margin-bottom:0;
 }
 
+a.buttonred {
+  float: left;
+  padding: 10px 0;
+  font-size: 12px;
+  width: 24%;
+  text-align: center;
+  box-sizing: border-box;
+  font-weight: 300;
+  background-color:$orange;
+  color: #fff;
+  text-transform: uppercase;
+}
+
 h2.block-title {
   margin: 0 auto;
   text-align: center;
@@ -273,7 +286,7 @@ h2.block-title {
   }
   input[type="submit"] {
     border-radius:0;
-    background:$blue;
+    background:$orange;
     color:#fff;
     font-weight:300;
   }
