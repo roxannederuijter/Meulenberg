@@ -45,4 +45,8 @@
   .paragraphs-item-2-kolommen-tekst-afbeelding-rech .ds-2col > .group-left {
     margin-right: 2.5%; }
 
+/* Contact */
+.block-views-contact-contact-block .group-left {
+  width: 20%; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
