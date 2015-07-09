@@ -237,6 +237,9 @@ h2.block-title {
   background-color: #4d74a3;
   padding: 20px 0; }
 
+.zone-content-wrapper {
+  padding: 50px 0; }
+
 /* Banner */
 #zone-header {
   width: 100%; }
