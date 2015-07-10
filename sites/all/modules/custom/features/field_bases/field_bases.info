@@ -24,4 +24,5 @@ features[field_base][] = field_samenvatting
 features[field_base][] = field_tekst_lang
 features[field_base][] = field_tekst_rechts
 features[field_base][] = field_title
+features[field_base][] = field_usp
 features[taxonomy][] = catogorie
