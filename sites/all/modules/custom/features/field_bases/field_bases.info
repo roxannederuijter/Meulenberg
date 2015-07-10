@@ -21,6 +21,7 @@ features[field_base][] = field_file_image_title_text
 features[field_base][] = field_image
 features[field_base][] = field_paragraph_s
 features[field_base][] = field_samenvatting
+features[field_base][] = field_slideshow
 features[field_base][] = field_tekst_lang
 features[field_base][] = field_tekst_rechts
 features[field_base][] = field_title
