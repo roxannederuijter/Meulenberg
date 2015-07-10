@@ -151,52 +151,11 @@ function content_diensten_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-diensten-field_usp'
-  $field_instances['node-diensten-field_usp'] = array(
-    'bundle' => 'diensten',
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'hidden',
-        'module' => 'cck_list',
-        'settings' => array(),
-        'type' => 'list_unordered',
-        'weight' => 2,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_usp',
-    'label' => 'Usp',
-    'required' => 0,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'cck_list',
-      'settings' => array(
-        'css_class' => '',
-        'css_id' => '',
-        'rows' => 5,
-      ),
-      'type' => 'cck_list_textarea',
-      'weight' => 7,
-    ),
-  );
-
   // Translatables
   // Included for use with string extractors like potx.
   t('Afbeelding');
   t('Banner');
   t('Paragraph\'s');
-  t('Usp');
 
   return $field_instances;
 }
