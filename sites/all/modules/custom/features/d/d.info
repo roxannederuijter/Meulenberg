@@ -6,6 +6,7 @@ dependencies[] = adminimal_admin_menu
 dependencies[] = cck_list
 dependencies[] = checklistapi
 dependencies[] = checklistapi_example
+dependencies[] = colorbox
 dependencies[] = ctools
 dependencies[] = default_seo_settings
 dependencies[] = field_bases
