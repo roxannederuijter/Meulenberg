@@ -420,11 +420,9 @@ h2 {
   font-weight: 300; }
   .view-display-id-page_1_nieuws .views-field-title a {
     color: #000; }
-.view-display-id-page_1_nieuws .views-field-view-node
-f {
+.view-display-id-page_1_nieuws .views-field-view-node {
   width: 100%; }
-  .view-display-id-page_1_nieuws .views-field-view-node
-  f a {
+  .view-display-id-page_1_nieuws .views-field-view-node a {
     color: #4d74a3;
     width: 60%;
     float: right;
@@ -454,7 +452,9 @@ f {
   font-weight: 300; }
 
 .block-views-contact-contact-block .group-left {
-  width: 20%; }
+  width: 100%; }
+.block-views-contact-contact-block .group-right {
+  widht: 100%; }
 
 /* Googlemaps */
 .context-neem-contact-met-ons-op #zone-postscript-second {
