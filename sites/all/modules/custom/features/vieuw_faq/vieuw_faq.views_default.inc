@@ -36,6 +36,7 @@ function vieuw_faq_views_default_views() {
   $handler->display->display_options['exposed_form']['options']['sort_desc_label'] = 'Aflopend';
   $handler->display->display_options['pager']['type'] = 'none';
   $handler->display->display_options['style_plugin'] = 'views_accordion';
+  $handler->display->display_options['style_options']['collapsible'] = 1;
   $handler->display->display_options['style_options']['row-start-open'] = 'none';
   $handler->display->display_options['row_plugin'] = 'fields';
   /* Veld: Inhoud: Vraag */
