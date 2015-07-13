@@ -338,7 +338,8 @@ h2 {
       .region-sidebar-first .block-superfish-3 ul li a {
         font-size: 1em;
         padding: 8px 0;
-        font-weight: 400; }
+        font-weight: 400;
+        color: #000; }
       .region-sidebar-first .block-superfish-3 ul li a.active {
         color: #4d74a3; }
   .region-sidebar-first .sf-megamenu-column ol li a {
