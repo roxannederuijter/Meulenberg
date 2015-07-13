@@ -16,4 +16,8 @@
 .context-neem-contact-met-ons-op #block-block-1 {
   width: 100%; }
 
+/* News */
+.view-display-id-page_1_nieuws .views-field-view-node a {
+  float: left; }
+
 /*# sourceMappingURL=default-alpha-default-normal.css.map */
