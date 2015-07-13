@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": ";;;;;;AASI,wDAAuB;EACrB,MAAM,EAAE,GAAG;AAEb,yDAAwB;EACtB,MAAM,EAAE,GAAG;AAGf,mCAAuB;EACrB,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,CAAC",
+"sources": ["default-alpha-default-normal.scss"],
 "names": [],
 "file": "default-alpha-default-normal.css"
 }

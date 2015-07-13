@@ -259,7 +259,8 @@ h2 {
       color: #FFFFFF;
       padding: 16px 10px;
       position: absolute;
-      bottom: 25%; }
+      bottom: 25%;
+      font-size: 12px; }
     #zone-header #region-header-first .field-name-field-title {
       background-color: #000;
       opacity: 0.8;
@@ -267,7 +268,7 @@ h2 {
       padding: 16px 10px;
       position: absolute;
       bottom: 45%;
-      font-size: 30px;
+      font-size: 18px;
       text-transform: uppercase; }
   #zone-header .field-collection-view {
     width: 100%;
