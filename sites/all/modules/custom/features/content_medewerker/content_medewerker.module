@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content - Medewerker feature.
+ */
+
+include_once 'content_medewerker.features.inc';

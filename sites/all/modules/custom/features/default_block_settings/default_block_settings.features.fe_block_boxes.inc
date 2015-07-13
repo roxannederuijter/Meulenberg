@@ -37,6 +37,17 @@ function default_block_settings_default_fe_block_boxes() {
   $export['cta'] = $fe_block_boxes;
 
   $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Ga naar';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'ga_naar';
+  $fe_block_boxes->body = '<ul>
+	<li><a href="/medewerkers">Medewerkers</a></li>
+</ul>
+';
+
+  $export['ga_naar'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'googlemaps';
   $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'googlemaps';

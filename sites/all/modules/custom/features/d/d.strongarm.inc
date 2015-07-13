@@ -611,6 +611,16 @@ function d_strongarm() {
     'alpha_region_footer_second_css' => '',
     'alpha_region_footer_second_equal_height_element' => 0,
     'alpha_region_footer_second_equal_height_container' => 0,
+    'alpha_region_footer_third_force' => 0,
+    'alpha_region_footer_third_zone' => 'footer',
+    'alpha_region_footer_third_prefix' => '0',
+    'alpha_region_footer_third_columns' => '4',
+    'alpha_region_footer_third_suffix' => '0',
+    'alpha_region_footer_third_weight' => '3',
+    'alpha_region_footer_third_position' => '0',
+    'alpha_region_footer_third_css' => '',
+    'alpha_region_footer_third_equal_height_element' => 0,
+    'alpha_region_footer_third_equal_height_container' => 0,
   );
   $export['theme_default_settings'] = $strongarm;
 

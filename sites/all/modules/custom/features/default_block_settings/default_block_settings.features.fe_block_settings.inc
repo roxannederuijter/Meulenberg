@@ -51,7 +51,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'footer_second',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -18,
       ),
       'seven' => array(
         'region' => '',
@@ -88,6 +88,32 @@ function default_block_settings_default_fe_block_settings() {
     ),
     'title' => '<none>',
     'visibility' => 1,
+  );
+
+  $export['block-ga_naar'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'ga_naar',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'footer_third',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => -17,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Ga naar',
+    'visibility' => 0,
   );
 
   $export['block-googlemaps'] = array(
@@ -825,6 +851,32 @@ function default_block_settings_default_fe_block_settings() {
     'module' => 'views',
     'node_types' => array(),
     'pages' => 'FAQ*',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
+  $export['views-medewerkers-medewerkers_block'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'medewerkers-medewerkers_block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'medewerkers*',
     'roles' => array(),
     'themes' => array(
       'default' => array(

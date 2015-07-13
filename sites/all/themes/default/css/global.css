@@ -222,6 +222,9 @@ h2.block-title {
   padding-bottom: 60px;
   font-size: 1.875em; }
 
+h2 {
+  font-weight: 300; }
+
 .logo-img {
   width: 60%; }
 
@@ -494,5 +497,23 @@ h2.block-title {
     background-size: 21px;
     width: 20px;
     height: 36px; }
+
+/* medewerkers */
+#block-views-medewerkers-medewerkers-block .views-row {
+  width: 33%;
+  min-height: 285px;
+  padding: 5px 3% 0px 3%;
+  box-sizing: border-box;
+  float: left; }
+  #block-views-medewerkers-medewerkers-block .views-row img {
+    width: 66%;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px; }
+  #block-views-medewerkers-medewerkers-block .views-row .views-field-field-naam {
+    text-align: center;
+    color: #f59f00; }
+  #block-views-medewerkers-medewerkers-block .views-row .views-field-field-functie {
+    text-align: center; }
 
 /*# sourceMappingURL=global.css.map */
