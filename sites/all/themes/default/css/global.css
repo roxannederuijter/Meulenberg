@@ -255,8 +255,11 @@ h2 {
     width: 100%;
     margin: 0; }
     #zone-header #region-header-first img {
-      width: 100%;
-      display: block; }
+      width: 100%; }
+    #zone-header #region-header-first .field-name-field-body {
+      display: none; }
+    #zone-header #region-header-first .field-name-field-title {
+      display: none; }
   #zone-header .field-collection-view {
     width: 100%;
     margin: 0; }
