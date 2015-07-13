@@ -92,4 +92,9 @@ a.buttonred {
 #region-footer-second {
   margin-bottom: 0px; }
 
+/* Menu */
+.region-branding-inner {
+  width: 100%;
+  float: none; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
