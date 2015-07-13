@@ -74,17 +74,17 @@ function content_ds_settings_ds_layout_settings_info() {
   $ds_layout->settings = array(
     'regions' => array(
       'left' => array(
-        0 => 'field_title',
-        1 => 'field_body',
+        0 => 'field_image',
       ),
       'right' => array(
-        2 => 'field_image',
+        1 => 'field_title',
+        2 => 'field_body',
       ),
     ),
     'fields' => array(
-      'field_title' => 'left',
-      'field_body' => 'left',
-      'field_image' => 'right',
+      'field_image' => 'left',
+      'field_title' => 'right',
+      'field_body' => 'right',
     ),
     'classes' => array(),
     'wrappers' => array(
