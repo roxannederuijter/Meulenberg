@@ -45,6 +45,19 @@
   .paragraphs-item-2-kolommen-tekst-afbeelding-rech .ds-2col > .group-left {
     margin-right: 2.5%; }
 
+/* Algemeen */
+a.buttonred {
+  float: left;
+  padding: 10px 10px;
+  font-size: 12px;
+  width: 24%;
+  text-align: center;
+  box-sizing: border-box;
+  font-weight: 300;
+  background-color: #f59f00;
+  color: #fff;
+  text-transform: uppercase; }
+
 /* Contact */
 .block-views-contact-contact-block .group-left {
   width: 20%; }

@@ -32,6 +32,20 @@
   }
 }
 
+/* Algemeen */
+a.buttonred {
+  float: left;
+  padding: 10px 10px;
+  font-size: 12px;
+  width: 24%;
+  text-align: center;
+  box-sizing: border-box;
+  font-weight: 300;
+  background-color:$orange;
+  color: #fff;
+  text-transform: uppercase;
+}
+
 /* Contact */
 .block-views-contact-contact-block {
   .group-left {
