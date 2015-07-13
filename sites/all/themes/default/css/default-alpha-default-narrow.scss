@@ -48,8 +48,9 @@ a.buttonred {
 
 /* Homepage */
 .view-display-id-frontpage_diensten_block {
-  .views-row {
+  .views-row, .views-row-last {
     width: 33.3%;
+    margin-bottom:60px;
   }
 }
 

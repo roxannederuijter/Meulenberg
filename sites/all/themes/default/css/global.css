@@ -342,6 +342,8 @@ h2 {
     text-align: center; }
     .view-display-id-frontpage_diensten_block .views-row .views-field-title a {
       color: #000; }
+.view-display-id-frontpage_diensten_block .views-row-last {
+  margin-bottom: 0px; }
 
 /* Diensten */
 .region-sidebar-first {
