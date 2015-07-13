@@ -44,10 +44,21 @@
   #region-header-first {
     .field-name-field-body {
       bottom: 20%;
+      background-color: #000;
+      opacity: 0.8;
+      color: #FFFFFF;
+      padding: 16px 10px;
+      position: absolute;
     }
     .field-name-field-title {
       bottom: 45%;
       font-size: 30px;
+      background-color: #000;
+      opacity: 0.8;
+      color: #FFFFFF;
+      padding: 16px 10px;
+      position: absolute;
+      text-transform: uppercase;
     }
   }
   .field-collection-view {

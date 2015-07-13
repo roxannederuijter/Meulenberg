@@ -73,23 +73,10 @@ h2 {
       width:100%;
     }
     .field-name-field-body {
-      background-color: #000;
-      opacity: 0.8;
-      color: #FFFFFF;
-      padding: 16px 10px;
-      position: absolute;
-      bottom: 25%;
-      font-size:12px;
+      display:none;
     }
     .field-name-field-title {
-      background-color: #000;
-      opacity: 0.8;
-      color: #FFFFFF;
-      padding: 16px 10px;
-      position: absolute;
-      bottom: 45%;
-      font-size: 18px;
-      text-transform: uppercase;
+      display:none;
     }
   }
   .field-collection-view {
