@@ -406,12 +406,14 @@ h2 {
   border-bottom: 1px dashed #ddd;
   margin-bottom: 30px; }
 .view-display-id-page_1_nieuws .views-field {
-  width: 55%;
+  width: 100%;
   float: left;
-  text-align: left; }
+  text-align: center; }
 .view-display-id-page_1_nieuws .views-field-field-image {
-  width: 35%;
-  margin-right: 5%; }
+  width: 100%;
+  margin-right: 0%; }
+  .view-display-id-page_1_nieuws .views-field-field-image img {
+    width: 100%; }
 .view-display-id-page_1_nieuws .views-field-title {
   font-size: 1.125em;
   text-transform: uppercase;

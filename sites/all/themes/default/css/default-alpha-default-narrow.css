@@ -106,4 +106,12 @@ a.buttonred {
   width: 100%;
   float: none; }
 
+/* News */
+.view-display-id-page_1_nieuws .views-field {
+  width: 55%;
+  text-align: left; }
+.view-display-id-page_1_nieuws .views-field-field-image {
+  width: 35%;
+  margin-right: 5%; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
