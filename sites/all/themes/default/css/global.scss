@@ -11,6 +11,10 @@ p {
   margin-bottom:0;
 }
 
+li {
+  list-style:none;
+}
+
 a.buttonred {
   float: left;
   padding: 10px 0;
@@ -358,6 +362,12 @@ h2 {
     color: #fff;
     font-size: 18px;
     padding-bottom:0;
+  }
+}
+
+#region-footer-third {
+  a {
+    color:$orange;
   }
 }
 
