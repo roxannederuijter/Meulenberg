@@ -420,9 +420,11 @@ h2 {
   font-weight: 300; }
   .view-display-id-page_1_nieuws .views-field-title a {
     color: #000; }
-.view-display-id-page_1_nieuws .views-field-view-node {
+.view-display-id-page_1_nieuws .views-field-view-node
+f {
   width: 100%; }
-  .view-display-id-page_1_nieuws .views-field-view-node a {
+  .view-display-id-page_1_nieuws .views-field-view-node
+  f a {
     color: #4d74a3;
     width: 60%;
     float: right;

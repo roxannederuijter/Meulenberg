@@ -113,5 +113,9 @@ a.buttonred {
 .view-display-id-page_1_nieuws .views-field-field-image {
   width: 35%;
   margin-right: 5%; }
+.view-display-id-page_1_nieuws .views-field-view-node {
+  width: 54% !important;
+  float: left;
+  text-align: right; }
 
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
