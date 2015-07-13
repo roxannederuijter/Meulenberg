@@ -58,6 +58,10 @@ a.buttonred {
   color: #fff;
   text-transform: uppercase; }
 
+/* Homepage */
+.view-display-id-frontpage_diensten_block .views-row {
+  width: 33.3%; }
+
 /* Contact */
 .block-views-contact-contact-block .group-left {
   width: 20%; }
