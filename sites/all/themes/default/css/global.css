@@ -302,6 +302,10 @@ h2 {
 #superfish-1-select:hover {
   background-color: #ddd; }
 
+.region-branding-inner {
+  width: 60%;
+  float: left; }
+
 /* Frontpage */
 .block-nieuws-news-frontpage-block .more-link {
   clear: both;
