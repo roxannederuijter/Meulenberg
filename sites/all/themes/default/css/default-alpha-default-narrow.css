@@ -49,4 +49,13 @@
 .block-views-contact-contact-block .group-left {
   width: 20%; }
 
+/* Banner */
+#zone-header #region-header-first .field-name-field-body {
+  bottom: 20%; }
+#zone-header #region-header-first .field-name-field-title {
+  bottom: 45%; }
+#zone-header .field-collection-view {
+  width: 100%;
+  margin: 0; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */

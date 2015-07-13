@@ -2,3 +2,20 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
 @import 'variables';
+
+
+/* Banner */
+#zone-header {
+  #region-header-first {
+    .field-name-field-body {
+      bottom: 25%;
+    }
+    .field-name-field-title {
+      bottom: 45%;
+    }
+  }
+  .field-collection-view {
+    width:100%;
+    margin:0;
+  }
+}

@@ -3,5 +3,13 @@
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
 /* Fonts */
 /* Colors */
+/* Banner */
+#zone-header #region-header-first .field-name-field-body {
+  bottom: 25%; }
+#zone-header #region-header-first .field-name-field-title {
+  bottom: 45%; }
+#zone-header .field-collection-view {
+  width: 100%;
+  margin: 0; }
 
 /*# sourceMappingURL=default-alpha-default-normal.css.map */
