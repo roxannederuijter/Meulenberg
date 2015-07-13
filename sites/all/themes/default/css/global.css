@@ -457,6 +457,12 @@ h2 {
 #region-footer-third a {
   color: #f59f00; }
 
+#region-footer-first {
+  margin-bottom: 30px; }
+
+#region-footer-second {
+  margin-bottom: 30px; }
+
 /* Slideshow */
 #block-views-diensten-block-1 {
   position: relative;
