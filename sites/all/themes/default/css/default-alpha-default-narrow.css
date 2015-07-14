@@ -61,6 +61,9 @@ a.buttonred {
 .zone-preface-wrapper {
   margin-top: 0; }
 
+.zone-content-wrapper {
+  padding: 5px 0; }
+
 /* Homepage */
 .view-display-id-frontpage_diensten_block .views-row, .view-display-id-frontpage_diensten_block .views-row-last {
   width: 33.3%;
