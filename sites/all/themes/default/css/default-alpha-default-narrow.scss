@@ -74,28 +74,8 @@ a.buttonred {
 /* Banner */
 #zone-header {
   #region-header-first {
-    .field-name-field-body {
-      bottom: 20%;
-      background-color: #000;
-      opacity: 0.8;
-      color: #FFFFFF;
-      padding: 16px 10px;
-      position: absolute;
-      display:block
-    }
     img {
       width:100%;
-      display:block;
-    }
-    .field-name-field-title {
-      bottom: 45%;
-      font-size: 30px;
-      background-color: #000;
-      opacity: 0.8;
-      color: #FFFFFF;
-      padding: 16px 10px;
-      position: absolute;
-      text-transform: uppercase;
       display:block;
     }
   }
