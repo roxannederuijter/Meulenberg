@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content - ons  feature.
+ */
+
+include_once 'content_ons_.features.inc';
