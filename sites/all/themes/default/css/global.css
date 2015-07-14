@@ -264,6 +264,11 @@ h2 {
     width: 100%;
     margin: 0; }
 
+#block-views-banner-block a {
+  color: #f59f00; }
+#block-views-banner-block a:hover {
+  color: #f59f00; }
+
 /* Menu */
 .block-superfish-1 {
   float: right; }
