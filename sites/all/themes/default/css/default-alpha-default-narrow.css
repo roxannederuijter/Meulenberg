@@ -82,6 +82,9 @@ a.buttonred {
   padding: 16px 10px;
   position: absolute;
   display: block; }
+#zone-header #region-header-first img {
+  width: 100%;
+  display: block; }
 #zone-header #region-header-first .field-name-field-title {
   bottom: 45%;
   font-size: 30px;
