@@ -579,8 +579,7 @@ h2 {
 .ui-accordion .ui-accordion-content {
   border: none;
   font-weight: 300;
-  font-size: 15px;
-  height: auto !important; }
+  font-size: 15px; }
 
 /* Sticky menu */
 .admin-menu .is-sticky .zone-branding-wrapper {
