@@ -249,7 +249,7 @@ h2 {
   padding: 20px 0; }
 
 .zone-content-wrapper {
-  padding: 65px 0; }
+  padding: 70px 0; }
 
 /* Banner */
 #zone-header {
@@ -579,7 +579,8 @@ h2 {
 .ui-accordion .ui-accordion-content {
   border: none;
   font-weight: 300;
-  font-size: 15px; }
+  font-size: 15px;
+  height: auto !important; }
 
 /* Sticky menu */
 .admin-menu .is-sticky .zone-branding-wrapper {
