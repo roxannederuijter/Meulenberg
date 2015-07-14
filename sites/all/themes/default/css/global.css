@@ -595,6 +595,7 @@ h2 {
 /* Over ons */
 .context-over-ons #block-views-medewerkers-medewerkers-block {
   margin-top: 50px;
-  border-top: 1px dashed; }
+  border-top: 1px dashed;
+  padding-top: 50; }
 
 /*# sourceMappingURL=global.css.map */
