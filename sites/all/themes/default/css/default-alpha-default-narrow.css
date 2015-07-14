@@ -58,6 +58,9 @@ a.buttonred {
   color: #fff;
   text-transform: uppercase; }
 
+.zone-preface-wrapper {
+  margin-top: 0; }
+
 /* Homepage */
 .view-display-id-frontpage_diensten_block .views-row, .view-display-id-frontpage_diensten_block .views-row-last {
   width: 33.3%;
