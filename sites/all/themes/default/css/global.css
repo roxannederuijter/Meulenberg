@@ -555,7 +555,7 @@ h2 {
   #block-views-medewerkers-medewerkers-block .views-row .views-field-field-functie {
     text-align: center; }
 
-/* Faq */
+/* Faq + over ons */
 .ui-icon {
   background-position: 0 0;
   background-image: url(img/square-plus.png) !important;
@@ -565,7 +565,7 @@ h2 {
 .ui-state-hover .ui-icon {
   background-image: url(img/square-plus-blue.png) !important; }
 
-.views-field-field-vraag {
+.views-field-field-vraag, .views-field-field-title {
   border: none;
   background: transparent url(images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x; }
 
