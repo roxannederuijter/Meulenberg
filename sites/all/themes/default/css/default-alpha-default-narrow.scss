@@ -124,3 +124,27 @@ a.buttonred {
     text-align: right;
   }
 }
+
+/* Medewerkers */
+#block-views-medewerkers-medewerkers-block {
+  .views-row {
+    width: 33%;
+    min-height: 285px;
+    padding: 5px 3% 0px 3%;
+    box-sizing: border-box;
+    float:left;
+    img {
+      width: 66%;
+      border-radius: 150px;
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+    }
+    .views-field-field-naam {
+      text-align:center;
+      color:$orange;
+    }
+    .views-field-field-functie {
+      text-align:center;
+    }
+  }
+}
