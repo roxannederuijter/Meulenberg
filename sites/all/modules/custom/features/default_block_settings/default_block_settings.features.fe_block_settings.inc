@@ -77,7 +77,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -15,
+        'weight' => -18,
       ),
       'seven' => array(
         'region' => '',
@@ -493,7 +493,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -16,
+        'weight' => -19,
       ),
       'seven' => array(
         'region' => 'content',
@@ -831,7 +831,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -17,
       ),
       'seven' => array(
         'region' => '',
@@ -857,7 +857,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -16,
       ),
       'seven' => array(
         'region' => '',
@@ -876,14 +876,15 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'medewerkers-medewerkers_block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => 'medewerkers*',
+    'pages' => 'medewerkers*
+over-ons*',
     'roles' => array(),
     'themes' => array(
       'default' => array(
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -14,
       ),
       'seven' => array(
         'region' => '',
@@ -935,7 +936,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -15,
       ),
       'seven' => array(
         'region' => '',
