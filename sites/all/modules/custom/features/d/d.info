@@ -17,6 +17,7 @@ dependencies[] = list
 dependencies[] = menu_attributes
 dependencies[] = seo_checklist
 dependencies[] = strongarm
+dependencies[] = uh_jquery_menu
 dependencies[] = uh_views_responsive
 dependencies[] = views_slideshow
 dependencies[] = views_slideshow_cycle

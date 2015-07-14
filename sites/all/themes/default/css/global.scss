@@ -516,3 +516,26 @@ h2 {
   font-weight:300;
   font-size:15px;
 }
+
+/* Sticky menu */
+.admin-menu{
+  .is-sticky {
+    .zone-branding-wrapper{
+      top: 29px !important;
+    }
+  }
+  .zone-branding-wrapper{
+    top: 28px;
+  }
+}
+
+.zone-branding-wrapper {
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  z-index: 997;
+}
+
+.sticky-wrapper {
+  height:0!important;
+}
