@@ -48,6 +48,7 @@ function views_ons_views_default_views() {
   $handler->display->display_options['fields']['field_over_ons']['settings'] = array(
     'view_mode' => 'full',
   );
+  $handler->display->display_options['fields']['field_over_ons']['group_rows'] = FALSE;
   $handler->display->display_options['fields']['field_over_ons']['delta_offset'] = '0';
   /* Sorteercriterium: Inhoud: Datum van inzending */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
