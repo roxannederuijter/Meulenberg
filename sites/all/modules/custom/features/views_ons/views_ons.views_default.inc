@@ -38,18 +38,18 @@ function views_ons_views_default_views() {
   $handler->display->display_options['style_plugin'] = 'views_accordion';
   $handler->display->display_options['style_options']['row-start-open'] = '0';
   $handler->display->display_options['row_plugin'] = 'fields';
-  /* Veld: Inhoud: over ons */
-  $handler->display->display_options['fields']['field_over_ons']['id'] = 'field_over_ons';
-  $handler->display->display_options['fields']['field_over_ons']['table'] = 'field_data_field_over_ons';
-  $handler->display->display_options['fields']['field_over_ons']['field'] = 'field_over_ons';
-  $handler->display->display_options['fields']['field_over_ons']['label'] = '';
-  $handler->display->display_options['fields']['field_over_ons']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_over_ons']['type'] = 'field_collection_fields';
-  $handler->display->display_options['fields']['field_over_ons']['settings'] = array(
-    'view_mode' => 'full',
-  );
-  $handler->display->display_options['fields']['field_over_ons']['group_rows'] = FALSE;
-  $handler->display->display_options['fields']['field_over_ons']['delta_offset'] = '0';
+  /* Veld: Veld: Titel */
+  $handler->display->display_options['fields']['field_title']['id'] = 'field_title';
+  $handler->display->display_options['fields']['field_title']['table'] = 'field_data_field_title';
+  $handler->display->display_options['fields']['field_title']['field'] = 'field_title';
+  $handler->display->display_options['fields']['field_title']['label'] = '';
+  $handler->display->display_options['fields']['field_title']['element_label_colon'] = FALSE;
+  /* Veld: Inhoud: tekst */
+  $handler->display->display_options['fields']['field_tekst']['id'] = 'field_tekst';
+  $handler->display->display_options['fields']['field_tekst']['table'] = 'field_data_field_tekst';
+  $handler->display->display_options['fields']['field_tekst']['field'] = 'field_tekst';
+  $handler->display->display_options['fields']['field_tekst']['label'] = '';
+  $handler->display->display_options['fields']['field_tekst']['element_label_colon'] = FALSE;
   /* Sorteercriterium: Inhoud: Datum van inzending */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'node';
@@ -62,6 +62,13 @@ function views_ons_views_default_views() {
   $handler->display->display_options['filters']['status']['value'] = 1;
   $handler->display->display_options['filters']['status']['group'] = 1;
   $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filtercriterium: Inhoud: Type */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'over_ons' => 'over_ons',
+  );
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');

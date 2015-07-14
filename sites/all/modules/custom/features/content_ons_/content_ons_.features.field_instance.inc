@@ -10,9 +10,9 @@
 function content_ons__field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'field_collection_item-field_over_ons-field_tekst'
-  $field_instances['field_collection_item-field_over_ons-field_tekst'] = array(
-    'bundle' => 'field_over_ons',
+  // Exported field_instance: 'node-over_ons-field_tekst'
+  $field_instances['node-over_ons-field_tekst'] = array(
+    'bundle' => 'over_ons',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
@@ -22,10 +22,16 @@ function content_ons__field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 1,
+        'weight' => 2,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
       ),
     ),
-    'entity_type' => 'field_collection_item',
+    'entity_type' => 'node',
     'field_name' => 'field_tekst',
     'label' => 'tekst',
     'required' => 0,
@@ -37,16 +43,16 @@ function content_ons__field_default_field_instances() {
       'active' => 1,
       'module' => 'text',
       'settings' => array(
-        'rows' => 10,
+        'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 32,
+      'weight' => 45,
     ),
   );
 
-  // Exported field_instance: 'field_collection_item-field_over_ons-field_titel'
-  $field_instances['field_collection_item-field_over_ons-field_titel'] = array(
-    'bundle' => 'field_over_ons',
+  // Exported field_instance: 'node-over_ons-field_title'
+  $field_instances['node-over_ons-field_title'] = array(
+    'bundle' => 'over_ons',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
@@ -56,12 +62,18 @@ function content_ons__field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
+        'weight' => 1,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
         'weight' => 0,
       ),
     ),
-    'entity_type' => 'field_collection_item',
-    'field_name' => 'field_titel',
-    'label' => 'titel',
+    'entity_type' => 'node',
+    'field_name' => 'field_title',
+    'label' => 'Titel',
     'required' => 0,
     'settings' => array(
       'text_processing' => 0,
@@ -74,58 +86,14 @@ function content_ons__field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 31,
-    ),
-  );
-
-  // Exported field_instance: 'node-over_ons-field_over_ons'
-  $field_instances['node-over_ons-field_over_ons'] = array(
-    'bundle' => 'over_ons',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'field_collection',
-        'settings' => array(
-          'add' => 'Toevoegen',
-          'delete' => 'Verwijderen',
-          'description' => TRUE,
-          'edit' => 'Bewerken',
-          'view_mode' => 'full',
-        ),
-        'type' => 'field_collection_view',
-        'weight' => 0,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_over_ons',
-    'label' => 'over ons',
-    'required' => 0,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 0,
-      'module' => 'field_collection',
-      'settings' => array(),
-      'type' => 'field_collection_embed',
-      'weight' => 41,
+      'weight' => 43,
     ),
   );
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('over ons');
+  t('Titel');
   t('tekst');
-  t('titel');
 
   return $field_instances;
 }
