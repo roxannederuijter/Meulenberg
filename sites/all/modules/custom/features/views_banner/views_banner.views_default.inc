@@ -72,32 +72,22 @@ function views_banner_views_default_views() {
   $handler->display->display_options['style_options']['views_slideshow_cycle']['cleartypenobg'] = 0;
   $handler->display->display_options['row_plugin'] = 'fields';
   /* Veld: Veld: Banner */
-  $handler->display->display_options['fields']['field_banner']['id'] = 'field_banner';
-  $handler->display->display_options['fields']['field_banner']['table'] = 'field_data_field_banner';
-  $handler->display->display_options['fields']['field_banner']['field'] = 'field_banner';
-  $handler->display->display_options['fields']['field_banner']['label'] = '';
-  $handler->display->display_options['fields']['field_banner']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_banner']['type'] = 'field_collection_fields';
-  $handler->display->display_options['fields']['field_banner']['settings'] = array(
+  $handler->display->display_options['fields']['field_banner_1']['id'] = 'field_banner_1';
+  $handler->display->display_options['fields']['field_banner_1']['table'] = 'field_data_field_banner';
+  $handler->display->display_options['fields']['field_banner_1']['field'] = 'field_banner';
+  $handler->display->display_options['fields']['field_banner_1']['label'] = '';
+  $handler->display->display_options['fields']['field_banner_1']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_banner_1']['type'] = 'field_collection_fields';
+  $handler->display->display_options['fields']['field_banner_1']['settings'] = array(
     'view_mode' => 'full',
   );
-  $handler->display->display_options['fields']['field_banner']['group_rows'] = FALSE;
-  $handler->display->display_options['fields']['field_banner']['delta_offset'] = '0';
+  $handler->display->display_options['fields']['field_banner_1']['group_rows'] = FALSE;
+  $handler->display->display_options['fields']['field_banner_1']['delta_offset'] = '0';
   /* Sorteercriterium: Inhoud: Datum van inzending */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'node';
   $handler->display->display_options['sorts']['created']['field'] = 'created';
   $handler->display->display_options['sorts']['created']['order'] = 'DESC';
-  /* Contextueel filter: Inhoud: Nid */
-  $handler->display->display_options['arguments']['nid']['id'] = 'nid';
-  $handler->display->display_options['arguments']['nid']['table'] = 'node';
-  $handler->display->display_options['arguments']['nid']['field'] = 'nid';
-  $handler->display->display_options['arguments']['nid']['default_action'] = 'default';
-  $handler->display->display_options['arguments']['nid']['exception']['title'] = 'Alle';
-  $handler->display->display_options['arguments']['nid']['default_argument_type'] = 'node';
-  $handler->display->display_options['arguments']['nid']['summary']['number_of_records'] = '0';
-  $handler->display->display_options['arguments']['nid']['summary']['format'] = 'default_summary';
-  $handler->display->display_options['arguments']['nid']['summary_options']['items_per_page'] = '25';
   /* Filtercriterium: Inhoud: Gepubliceerd */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
@@ -105,6 +95,13 @@ function views_banner_views_default_views() {
   $handler->display->display_options['filters']['status']['value'] = 1;
   $handler->display->display_options['filters']['status']['group'] = 1;
   $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filtercriterium: Inhoud: Type */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'banner' => 'banner',
+  );
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
@@ -117,7 +114,6 @@ function views_banner_views_default_views() {
     t('Sorteren op'),
     t('Oplopend'),
     t('Aflopend'),
-    t('Alle'),
     t('Block'),
   );
   $export['banner'] = $view;

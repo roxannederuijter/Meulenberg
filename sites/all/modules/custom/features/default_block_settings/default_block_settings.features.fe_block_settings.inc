@@ -22,8 +22,8 @@ function default_block_settings_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'header_first',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'default',
         'weight' => 0,
       ),
@@ -776,8 +776,8 @@ function default_block_settings_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'header_first',
+        'status' => 1,
         'theme' => 'default',
         'weight' => 0,
       ),
