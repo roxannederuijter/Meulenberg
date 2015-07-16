@@ -135,7 +135,7 @@ function content_type_basic_page_field_default_field_instances() {
         'label' => 'hidden',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 1,
+        'weight' => 9,
       ),
       'teaser' => array(
         'label' => 'above',
