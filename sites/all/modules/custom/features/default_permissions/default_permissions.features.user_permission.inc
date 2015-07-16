@@ -584,7 +584,9 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'create any banner bean'.
   $permissions['create any banner bean'] = array(
     'name' => 'create any banner bean',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'bean',
   );
 
@@ -648,7 +650,9 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'delete any banner bean'.
   $permissions['delete any banner bean'] = array(
     'name' => 'delete any banner bean',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'bean',
   );
 
@@ -831,7 +835,9 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'edit any banner bean'.
   $permissions['edit any banner bean'] = array(
     'name' => 'edit any banner bean',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'bean',
   );
 
@@ -1126,7 +1132,10 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'view any banner bean'.
   $permissions['view any banner bean'] = array(
     'name' => 'view any banner bean',
-    'roles' => array(),
+    'roles' => array(
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
+    ),
     'module' => 'bean',
   );
 
