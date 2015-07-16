@@ -570,7 +570,8 @@ h2 {
   background-image: url(img/square-plus-blue.png) !important; }
 
 .views-field-field-vraag, .views-field-field-title {
-  background: transparent url(images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x; }
+  background: transparent url(images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;
+  border: none; }
 
 .ui-accordion .ui-accordion-header .ui-accordion-header-icon {
   top: 42%; }
@@ -578,6 +579,9 @@ h2 {
 .ui-accordion .ui-accordion-content {
   font-size: 15px;
   width: 45%; }
+
+.ui-widget-content {
+  border: 1px solid #f59f00; }
 
 /* Sticky menu */
 .admin-menu .is-sticky .zone-branding-wrapper {
