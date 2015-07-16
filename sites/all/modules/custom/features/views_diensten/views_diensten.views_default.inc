@@ -23,8 +23,9 @@ function views_diensten_views_default_views() {
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
   $handler->display->display_options['title'] = 'Diensten';
+  $handler->display->display_options['use_more'] = TRUE;
   $handler->display->display_options['use_more_always'] = FALSE;
-  $handler->display->display_options['use_more_text'] = 'meer';
+  $handler->display->display_options['use_more_text'] = 'Meer diensten/producten';
   $handler->display->display_options['access']['type'] = 'perm';
   $handler->display->display_options['cache']['type'] = 'none';
   $handler->display->display_options['query']['type'] = 'views_query';
@@ -37,6 +38,11 @@ function views_diensten_views_default_views() {
   $handler->display->display_options['pager']['type'] = 'none';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
+  /* Voet: Algemeen: Ongefilterde tekst */
+  $handler->display->display_options['footer']['area_text_custom']['id'] = 'area_text_custom';
+  $handler->display->display_options['footer']['area_text_custom']['table'] = 'views';
+  $handler->display->display_options['footer']['area_text_custom']['field'] = 'area_text_custom';
+  $handler->display->display_options['footer']['area_text_custom']['content'] = '<a class="button" href="/producten">Meer diensten/producten</a>';
   /* Veld: Veld: Afbeelding */
   $handler->display->display_options['fields']['field_image']['id'] = 'field_image';
   $handler->display->display_options['fields']['field_image']['table'] = 'field_data_field_image';
@@ -80,6 +86,13 @@ function views_diensten_views_default_views() {
 
   /* Display: Pagina */
   $handler = $view->new_display('page', 'Pagina', 'page_1');
+  $handler->display->display_options['defaults']['use_more'] = FALSE;
+  $handler->display->display_options['defaults']['use_more_always'] = FALSE;
+  $handler->display->display_options['defaults']['use_more_always'] = FALSE;
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['defaults']['use_more_text'] = FALSE;
+  $handler->display->display_options['use_more_text'] = 'Meer diensten/producten';
+  $handler->display->display_options['defaults']['footer'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Veld: Inhoud: Titel */
   $handler->display->display_options['fields']['title']['id'] = 'title';
@@ -102,6 +115,12 @@ function views_diensten_views_default_views() {
 
   /* Display: Diensten-Slideshow-Blok */
   $handler = $view->new_display('block', 'Diensten-Slideshow-Blok', 'block_1');
+  $handler->display->display_options['defaults']['use_more'] = FALSE;
+  $handler->display->display_options['defaults']['use_more_always'] = FALSE;
+  $handler->display->display_options['defaults']['use_more_always'] = FALSE;
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['defaults']['use_more_text'] = FALSE;
+  $handler->display->display_options['use_more_text'] = 'Meer diensten/producten';
   $handler->display->display_options['defaults']['style_plugin'] = FALSE;
   $handler->display->display_options['style_plugin'] = 'slideshow';
   $handler->display->display_options['style_options']['slideshow_type'] = 'views_slideshow_cycle';
@@ -146,6 +165,7 @@ function views_diensten_views_default_views() {
   $handler->display->display_options['defaults']['row_plugin'] = FALSE;
   $handler->display->display_options['row_plugin'] = 'fields';
   $handler->display->display_options['defaults']['row_options'] = FALSE;
+  $handler->display->display_options['defaults']['footer'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Veld: Inhoud: Slideshow */
   $handler->display->display_options['fields']['field_slideshow']['id'] = 'field_slideshow';
@@ -159,7 +179,7 @@ function views_diensten_views_default_views() {
     'colorbox_node_style' => 'news',
     'colorbox_node_style_first' => '',
     'colorbox_image_style' => '',
-    'colorbox_gallery' => 'post',
+    'colorbox_gallery' => 'none',
     'colorbox_gallery_custom' => '',
     'colorbox_caption' => 'auto',
     'colorbox_caption_custom' => '',
@@ -180,13 +200,15 @@ function views_diensten_views_default_views() {
   $translatables['diensten'] = array(
     t('Master'),
     t('Diensten'),
-    t('meer'),
+    t('Meer diensten/producten'),
     t('Toepassen'),
     t('Opnieuw instellen'),
     t('Sorteren op'),
     t('Oplopend'),
     t('Aflopend'),
+    t('<a class="button" href="/producten">Meer diensten/producten</a>'),
     t('Frontpage-Diensten-Block'),
+    t('meer'),
     t('Pagina'),
     t('Diensten-Slideshow-Blok'),
     t('Alle'),

@@ -18,7 +18,7 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'banner-nieuws',
     'module' => 'bean',
     'node_types' => array(),
-    'pages' => 'nieuws*',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -35,7 +35,7 @@ function default_block_settings_default_fe_block_settings() {
       ),
     ),
     'title' => '<none>',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   $export['block-contact'] = array(
@@ -776,8 +776,8 @@ function default_block_settings_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'header_first',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'default',
         'weight' => 0,
       ),

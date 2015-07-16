@@ -127,42 +127,6 @@ function content_webform_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-webform-field_banner'
-  $field_instances['node-webform-field_banner'] = array(
-    'bundle' => 'webform',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 10,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_banner',
-    'label' => 'Banner',
-    'required' => 0,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 0,
-      'module' => 'field_collection',
-      'settings' => array(),
-      'type' => 'field_collection_embed',
-      'weight' => 1,
-    ),
-  );
-
   // Exported field_instance: 'node-webform-field_body'
   $field_instances['node-webform-field_body'] = array(
     'bundle' => 'webform',
@@ -244,7 +208,6 @@ function content_webform_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Afbeelding');
-  t('Banner');
   t('Contactgegevens');
   t('Titel');
   t('body');
