@@ -205,6 +205,10 @@ p {
 li {
   list-style: none; }
 
+.view-header {
+  text-align: center;
+  margin-bottom: 30px; }
+
 a.buttonred {
   float: left;
   padding: 10px 10px;
@@ -616,5 +620,9 @@ h2 {
   margin-top: 50px;
   border-top: 1px dashed;
   padding-top: 50px; }
+
+.view-producten .view-footer {
+  float: left;
+  margin-top: 30px; }
 
 /*# sourceMappingURL=global.css.map */
