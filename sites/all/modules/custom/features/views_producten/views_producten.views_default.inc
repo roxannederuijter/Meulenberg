@@ -41,7 +41,8 @@ function views_producten_views_default_views() {
   $handler->display->display_options['header']['area_text_custom']['id'] = 'area_text_custom';
   $handler->display->display_options['header']['area_text_custom']['table'] = 'views';
   $handler->display->display_options['header']['area_text_custom']['field'] = 'area_text_custom';
-  $handler->display->display_options['header']['area_text_custom']['content'] = 'Stel, u heeft een bestand, maar u weet niet of wij dit voor u kunnen produceren. Ons bedrijf kan u voorzien in vrijwel alles wat met drukwerk te maken heeft. Hieronder vindt u een overzicht van onze producten';
+  $handler->display->display_options['header']['area_text_custom']['content'] = '<h2>Producten</h2>
+Stel, u heeft een bestand, maar u weet niet of wij dit voor u kunnen produceren. Ons bedrijf kan u voorzien in vrijwel alles wat met drukwerk te maken heeft. Hieronder vindt u een overzicht van onze producten';
   /* Voet: Algemeen: Ongefilterde tekst */
   $handler->display->display_options['footer']['area_text_custom']['id'] = 'area_text_custom';
   $handler->display->display_options['footer']['area_text_custom']['table'] = 'views';
@@ -92,7 +93,8 @@ function views_producten_views_default_views() {
     t('Sorteren op'),
     t('Oplopend'),
     t('Aflopend'),
-    t('Stel, u heeft een bestand, maar u weet niet of wij dit voor u kunnen produceren. Ons bedrijf kan u voorzien in vrijwel alles wat met drukwerk te maken heeft. Hieronder vindt u een overzicht van onze producten'),
+    t('<h2>Producten</h2>
+Stel, u heeft een bestand, maar u weet niet of wij dit voor u kunnen produceren. Ons bedrijf kan u voorzien in vrijwel alles wat met drukwerk te maken heeft. Hieronder vindt u een overzicht van onze producten'),
     t('Wilt u graag iets laten drukken, maar ziet u uw product niet in dit rijtje staan? Neem gerust contact met ons op. De kans is erg groot dat wij u toch kunnen helpen!'),
     t('Page'),
   );
