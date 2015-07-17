@@ -485,10 +485,10 @@ h2 {
 /* Googlemaps */
 .context-neem-contact-met-ons-op #zone-postscript-second {
   width: 100%; }
-.context-neem-contact-met-ons-op #region-postscript-second {
+.context-neem-contact-met-ons-op #zone-header {
   width: 100%;
   margin: 0; }
-  .context-neem-contact-met-ons-op #region-postscript-second iframe {
+  .context-neem-contact-met-ons-op #zone-header iframe {
     width: 100%; }
 .context-neem-contact-met-ons-op #block-block-1 {
   width: 80%;
