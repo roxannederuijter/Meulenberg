@@ -124,6 +124,11 @@ function views_banner_views_default_views() {
     'image_style' => 'banner',
     'image_link' => '',
   );
+  $handler->display->display_options['defaults']['sorts'] = FALSE;
+  /* Sorteercriterium: Inhoud: Datum van inzending */
+  $handler->display->display_options['sorts']['created']['id'] = 'created';
+  $handler->display->display_options['sorts']['created']['table'] = 'node';
+  $handler->display->display_options['sorts']['created']['field'] = 'created';
   $handler->display->display_options['defaults']['arguments'] = FALSE;
   /* Contextueel filter: Inhoud: Nid */
   $handler->display->display_options['arguments']['nid']['id'] = 'nid';
