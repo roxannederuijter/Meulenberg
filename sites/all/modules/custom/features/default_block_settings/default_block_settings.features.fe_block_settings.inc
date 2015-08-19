@@ -18,12 +18,12 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'banner-nieuws',
     'module' => 'bean',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'nieuws',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'header_first',
+        'status' => 1,
         'theme' => 'default',
         'weight' => 0,
       ),
@@ -35,7 +35,7 @@ function default_block_settings_default_fe_block_settings() {
       ),
     ),
     'title' => '<none>',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['block-contact'] = array(
@@ -772,7 +772,8 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'banner-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => 'neem-contact-met-ons-op',
+    'pages' => 'neem-contact-met-ons-op
+nieuws*',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -790,6 +791,32 @@ function default_block_settings_default_fe_block_settings() {
     ),
     'title' => '<none>',
     'visibility' => 0,
+  );
+
+  $export['views-banner-block_1'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'banner-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'nieuws*',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'header_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
   );
 
   $export['views-contact-contact_block'] = array(
@@ -947,32 +974,6 @@ over-ons*',
     ),
     'title' => 'Over ons',
     'visibility' => 1,
-  );
-
-  $export['webform-client-block-15'] = array(
-    'cache' => -1,
-    'custom' => 0,
-    'delta' => 'client-block-15',
-    'module' => 'webform',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'default' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'default',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
   );
 
   return $export;
